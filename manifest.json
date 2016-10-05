@@ -1,0 +1,14 @@
+{
+  "name": "Tabsize",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Set all <tab> characters to the width of 2 spaces.",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["script.js"]
+    }
+  ]
+}
+
